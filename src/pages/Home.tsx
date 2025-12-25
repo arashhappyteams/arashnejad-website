@@ -203,10 +203,10 @@ export function Home() {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <div className="absolute bottom-4 right-4 z-20 rotate-[-6deg] origin-bottom-right">
-                <div className="bg-white/75 backdrop-blur-sm px-4 py-2 rounded-md shadow-lg">
-                  <Signature />
-                </div>
+
+              {/* Signature Overlay */}
+              <div className="absolute bottom-6 right-6 z-20 rotate-[23deg] origin-bottom-right">
+                <Signature />
               </div>
             </motion.div>
           </div>
