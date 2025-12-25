@@ -1,10 +1,9 @@
-
 export function Signature() {
   return (
     <img
       src="/images/hero/arash-signature.png"
       alt="Arash Nejad signature"
-      className="h-5 md:h-6 w-auto opacity-85 select-none pointer-events-none"
+      className="block h-6 w-auto max-w-[180px] md:h-7 md:max-w-[220px] opacity-85"
       loading="eager"
       decoding="async"
     />
