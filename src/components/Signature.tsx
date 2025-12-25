@@ -5,9 +5,9 @@ export function Signature() {
       alt="Arash Nejad Signature"
       className="signature-image"
       style={{
-        width: '190px',
+        width: '220px',
         height: 'auto',
-        transform: 'rotate(-14deg)',
+        transform: 'rotate(-9deg)',
         transformOrigin: 'center center'
       }}
     />
