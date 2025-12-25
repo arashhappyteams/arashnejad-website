@@ -204,7 +204,7 @@ export function Home() {
                 />
               </div>
               {/* Signature Overlay */}
-              <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-2 rounded shadow-lg">
+              <div className="absolute bottom-3 right-3 bg-white/70 backdrop-blur-sm px-3 py-1.5 rounded-md shadow-md">
                 <Signature />
               </div>
             </motion.div>
