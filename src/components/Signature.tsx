@@ -7,7 +7,7 @@ export function Signature() {
       style={{
         width: '220px',
         height: 'auto',
-        transform: 'rotate(-9deg)',
+        transform: 'rotate(0deg)',
         transformOrigin: 'center center'
       }}
     />
