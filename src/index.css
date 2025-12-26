@@ -1,4 +1,6 @@
 /*! tailwindcss v4.1.3 | MIT License | https://tailwindcss.com */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
 @layer properties {
   @supports (((-webkit-hyphens: none)) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
     *, :before, :after, ::backdrop {
@@ -378,12 +380,6 @@
     --color-light-bg: #fff;
     --color-accent: #f5c646;
     --font-base: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
-  }
-
-  @font-face {
-    font-family: Inter;
-    font-display: swap;
-    src: url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
   }
 
   * {
