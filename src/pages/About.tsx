@@ -621,14 +621,14 @@ export function About() {
           >
             <h3 className="mb-4">Let's Connect</h3>
             <p className="text-base mb-6">
-              Follow my journey on LinkedIn or get in touch to explore how we can work together.
+              Follow my journey on LinkedIn or reach out to continue the conversation.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Button href="https://www.linkedin.com/in/arashnejad/" variant="primary">
                 View LinkedIn Profile
               </Button>
               <Button to="/contact" variant="secondary">
-                Get in Touch
+                Continue the Conversation
               </Button>
             </div>
           </motion.div>
