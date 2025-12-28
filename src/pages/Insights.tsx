@@ -172,7 +172,7 @@ export function Insights() {
           >
             <h3 className="mb-4">Want to Go Deeper?</h3>
             <p className="text-base mb-6">
-              If you're interested in exploring how these insights can be applied to your organization, let's have a conversation.
+              If something here resonates, I welcome thoughtful dialogue and shared perspectives.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
               <Link
