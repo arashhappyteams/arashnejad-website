@@ -179,7 +179,7 @@ export function Insights() {
                 to="/speaking-coaching"
                 className="inline-block px-6 py-3 bg-[var(--color-primary)] text-white rounded-md hover:bg-[#0f1621] transition-all duration-200 font-semibold"
               >
-                Speaking & Coaching
+                Executive Dialogue
               </Link>
               <Link
                 to="/contact"
