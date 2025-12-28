@@ -59,8 +59,8 @@ export function SpeakingCoaching() {
   return (
     <>
       <SEOHead
-        title="Speaking & Coaching with Arash Nejad | Executive Leadership"
-        description="Engage with Arash Nejad through speaking engagements, executive coaching, and leadership forums. Topics include culture transformation, growth strategies, and building high-performing teams."
+        title="Executive Dialogue | Arash Nejad | Executive Leadership"
+        description="Peer dialogue with executives and operators, occasional talks and panels, and structured leadership forums with teams and boards."
         canonical="https://www.arashnejad.com/speaking-coaching"
       />
 
@@ -72,7 +72,7 @@ export function SpeakingCoaching() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
           >
-            <h1 className="mb-6">Speaking & Coaching</h1>
+            <h1 className="mb-6">Executive Dialogue</h1>
             <p className="mb-4">
               I engage through occasional public talks, thoughtful peer conversations, and structured leadership forums.
             </p>
@@ -92,7 +92,7 @@ export function SpeakingCoaching() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-center mb-12">How We Can Work Together</h2>
+            <h2 className="text-center mb-12">Ways I Engage</h2>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
