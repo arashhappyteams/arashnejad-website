@@ -69,8 +69,8 @@ export function Home() {
       path: '/insights',
     },
     {
-      title: 'Speaking & Coaching',
-      description: 'Occasional talks and panels, peer conversations with fellow executives, and leadership forums with teams and boards.',
+      title: 'Executive Dialogue',
+      description: 'Occasional talks and panels, peer dialogue with executives and operators, and leadership forums with teams and boards.',
       path: '/speaking-coaching',
     },
     {
@@ -177,14 +177,14 @@ export function Home() {
                 I scale organizations by aligning people with strategy and executing with discipline. I build and reignite teams in complex global industries.
               </p>
               <p className="mb-8 text-lg leading-relaxed">
-                Based in Canada, I work with leaders and teams across North America, Europe, and global markets.
+                Based in North America, I look forward to connecting with leaders across the world in various markets.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button to="/insights" variant="primary">
                   Read Insights
                 </Button>
                 <Button to="/speaking-coaching" variant="secondary">
-                  Speaking & Coaching
+                  Executive Dialogue
                 </Button>
               </div>
             </motion.div>
