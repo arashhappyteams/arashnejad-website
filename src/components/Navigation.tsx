@@ -25,7 +25,7 @@ export function Navigation() {
     { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Insights', path: '/insights' },
-    { name: 'Speaking & Coaching', path: '/speaking-coaching' },
+    { name: 'Executive Dialogue', path: '/speaking-coaching' },
     { name: 'Books', path: '/books' },
     { name: 'Quotes', path: '/quotes' },
     { name: 'Contact', path: '/contact' },
