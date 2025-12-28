@@ -35,7 +35,7 @@ export function Home() {
     {
       icon: <Target size={28} />,
       title: 'Realign with Customer Outcomes',
-      description: 'Product roadmap, marketing strategy, pricing, and the value propositions need to spell it out in 30 seconds.',
+      description: 'Product roadmap, marketing strategy, pricing, and the value propositions need to spell out in 30 seconds - not 2 minutes.',
     },
     {
       icon: <Users size={28} />,
