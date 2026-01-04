@@ -1,0 +1,4 @@
+  - Harvard Business School: `/images/about/education/harvard-business-school.png`
+  - Wharton School: `/images/about/education/wharton-school.svg`
+  - General Electric: `/images/about/education/general-electric.svg`
+  - University of Calgary: `/images/about/education/university-of-calgary.png`
