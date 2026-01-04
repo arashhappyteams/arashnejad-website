@@ -137,7 +137,7 @@ export function About() {
                 I am a Sales and Marketer at heart. I scale organizations, from startups and scaleups to global enterprises, by aligning people, strategy, and then executing. My secret sauce is my ability to build teams and reignite existing ones to 10x the output.
               </p>
               <p className="mb-4">
-                As an electrical and computer engineer, I enjoy building companies around complex and highly technical products. My recent work has focused on the application of AI in industrial automation in heavy industries.
+                Trained as an electrical and computer engineer, I build companies at the intersection of complex engineering and commercial outcomes. My work has increasingly focused on applying AI to industrial automation in heavy industries. I founded my first AI company in 2002, predicting electricity pricing the next day in deregulated power markets.
               </p>
               <p className="mb-4">
                 Based in Canada, I work with leaders and teams across North America, Europe, and global markets.
