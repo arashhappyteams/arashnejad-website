@@ -139,11 +139,26 @@ export function About() {
               <p className="mb-4">
                 Trained as an electrical and computer engineer, I build companies at the intersection of complex engineering and commercial outcomes. My work has increasingly focused on applying AI to industrial automation in heavy industries. I founded my first AI company in 2002, predicting electricity pricing the next day in deregulated power markets.
               </p>
-              <p className="mb-4">
-                Based in Canada, I work with leaders and teams across North America, Europe, and global markets.
-              </p>
               <p className="mb-0">
-                My approach is rooted in the science behind Positive Psychology and the teachings of <a href="https://ppc.sas.upenn.edu/people/martin-ep-seligman" target="_blank" rel="noopener noreferrer" className="text-[var(--color-primary)] hover:text-[var(--color-accent)] transition-colors duration-200 underline">Dr. Martin Seligman</a> at The Wharton School of the University of Pennsylvania.
+                My approach is grounded in people and the teams I build, rooted in the science of Positive Psychology and the teachings of{" "}
+                <a
+                  href="https://ppc.sas.upenn.edu/people/martin-ep-seligman"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--color-primary)] hover:text-[var(--color-accent)] transition-colors duration-200 underline"
+                >
+                  Dr. Martin Seligman
+                </a>{" "}
+                at{" "}
+                <a
+                  href="https://www.wharton.upenn.edu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-[var(--color-primary)] hover:text-[var(--color-accent)] transition-colors duration-200 underline"
+                >
+                  The Wharton School of the University of Pennsylvania
+                </a>
+                . Based in North America, I work closely with leaders and teams across global markets, continually learning from diverse perspectives and environments.
               </p>
             </motion.div>
           </div>
