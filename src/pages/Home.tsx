@@ -320,7 +320,7 @@ export function Home() {
             >
               <h2 className="mb-4">Industries I Understand Deeply</h2>
               <p className="text-base leading-relaxed mb-3">
-                I have worked across technical and heavy industries where execution, reliability, and culture are essential.
+                My experience spans major heavy industries where software, electronics, and AI meet the realities of machines, human safety, and harsh environments.
               </p>
             </motion.div>
 
