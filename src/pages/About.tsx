@@ -212,7 +212,7 @@ export function About() {
             >
               <div className="mb-4 flex justify-center">
                 <img 
-                  src="/images/about/education/wharton-school.svg" 
+                  src="/images/about/education/wharton-school.png" 
                   alt="The Wharton School"
                   className="h-16 w-auto object-contain"
                 />
@@ -233,7 +233,7 @@ export function About() {
             >
               <div className="mb-4 flex justify-center">
                 <img 
-                  src="/images/about/education/general-electric.svg" 
+                  src="/images/about/education/general-electric.png" 
                   alt="GE Management Development Institute"
                   className="h-16 w-auto object-contain"
                 />
