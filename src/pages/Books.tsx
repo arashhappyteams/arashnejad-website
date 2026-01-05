@@ -102,7 +102,7 @@ export function Books() {
       author: 'Richard N. Bolles',
       year: '2022',
       commentary: 'Been around for decades and a must for anyone choosing careers, teenagers, and professionals trying to decide between two jobs',
-      amazonUrl: 'https://www.amazon.com/What-Color-Your-Parachute-2022/dp/198481559X',
+      amazonUrl: 'https://www.amazon.com/10x-Easier-Than-World-Class-Entrepreneurs/dp/140196995X',
     },
   ];
 
