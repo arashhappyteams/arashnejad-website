@@ -138,18 +138,18 @@ export function Books() {
             {books.map((book, index) => {
               // Map book covers to each book
               const bookCovers = [
-                'https://images.unsplash.com/photo-1650735310293-307be67b3236?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGJvb2slMjBjb3ZlcnxlbnwxfHx8fDE3NjUzODc2ODR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-                'https://images.unsplash.com/photo-1658198420916-951923730cdd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsZWFkZXJzaGlwJTIwYm9va3xlbnwxfHx8fDE3NjU0MjA1OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-                'https://images.unsplash.com/photo-1761046516518-b078d809d27d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoYXJkY292ZXIlMjBib29rJTIwc3BpbmV8ZW58MXx8fHwxNzY1NDIwNTkwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-                'https://images.unsplash.com/photo-1686100510591-b5d5d4113bc6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjb3Jwb3JhdGUlMjBib29rfGVufDF8fHx8MTc2NTQyMDU5MHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-                'https://images.unsplash.com/photo-1612969310359-e77892cbd221?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzdHJhdGVneSUyMGJvb2slMjBjb3ZlcnxlbnwxfHx8fDE3NjU0MjA1OTB8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-                'https://images.unsplash.com/photo-1764345607246-cb31749a99f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBib29rfGVufDF8fHx8MTc2NTQyMDU5Mnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-                'https://images.unsplash.com/photo-1725869973689-425c74f79a48?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZXh0Ym9vayUyMGNvdmVyfGVufDF8fHx8MTc2NTQyMDU5NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-                'https://images.unsplash.com/photo-1723220217551-5b5a8a578758?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibHVlJTIwYm9vayUyMGNvdmVyfGVufDF8fHx8MTc2NTQyMDU5NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-                'https://images.unsplash.com/photo-1696937059544-d27af28d458d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxyZWQlMjBib29rJTIwY292ZXJ8ZW58MXx8fHwxNzY1NDIwNTk1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-                'https://images.unsplash.com/photo-1705837861201-dd000d929a31?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxncmVlbiUyMGJvb2slMjBjb3ZlcnxlbnwxfHx8fDE3NjU0MjA1OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-                'https://images.unsplash.com/photo-1697559007191-fc311ab417ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx5ZWxsb3clMjBib29rJTIwY292ZXJ8ZW58MXx8fHwxNzY1NDIwNTk2fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-                'https://images.unsplash.com/photo-1613495895664-ced1a7ce7cdd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxibGFjayUyMGJvb2slMjBjb3ZlcnxlbnwxfHx8fDE3NjU0MjA1OTZ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+                  '/images/books/book-cover-01-business.jpg',
+                  '/images/books/book-cover-02-leadership.jpg',
+                  '/images/books/book-cover-03-hardcover.jpg',
+                  '/images/books/book-cover-04-corporate.jpg',
+                  '/images/books/book-cover-05-strategy.jpg',
+                  '/images/books/book-cover-06-professional.jpg',
+                  '/images/books/book-cover-07-textbook.jpg',
+                  '/images/books/book-cover-08-blue.jpg',
+                  '/images/books/book-cover-09-red.jpg',
+                  '/images/books/book-cover-10-green.jpg',
+                  '/images/books/book-cover-11-yellow.jpg',
+                  '/images/books/book-cover-12-black.jpg',
               ];
 
               return (
