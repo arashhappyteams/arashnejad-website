@@ -70,7 +70,7 @@ export function Books() {
       author: 'Simon Sinek',
       year: '2019',
       commentary: 'Challenges us to think beyond quarterly results. The concept of infinite vs. finite games reframes how we approach strategy.',
-      amazonUrl: 'https://www.amazon.com/Infinite-Game-Simon-Sinek/dp/0735213500',
+      amazonUrl: 'https://www.amazon.com/Infinite-Game-Simon-Sinek/dp/073521350X',
     },
     {
       id: 9,
