@@ -1,0 +1,6 @@
+- ⏳ `/images/quotes/quote-author-01-truman.jpg` (200x200px)
+- ⏳ `/images/quotes/quote-author-02-sinek.jpg` (200x200px)
+- ⏳ `/images/quotes/quote-author-03-einstein.jpg` (200x200px)
+- ⏳ `/images/quotes/quote-author-04-collins.jpg` (200x200px)
+- ⏳ `/images/quotes/quote-author-05-seligman.jpg` (200x200px)
+- ⏳ `/images/quotes/quote-author-06-conant.jpg` (200x200px)
