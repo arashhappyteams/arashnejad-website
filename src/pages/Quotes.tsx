@@ -35,7 +35,7 @@ export function Quotes() {
       attribution: 'President Harry Truman',
       commentary: 'While controversial in his time, Truman’s point captures the essence of leadership. It is about influence, persuasion, and bringing people together with purpose and belief.',
       category: 'Leadership',
-      headshot: 'https://images.unsplash.com/photo-1672685667592-0392f458f46f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwb3J0cmFpdCUyMGhlYWRzaG90fGVufDF8fHx8MTc2NTUwNTAwNXww&ixlib=rb-4.1.0&q=80&w=1080',
+      headshot: '/images/quotes/quote-author-01-truman.jpg',
     },
     {
       id: 4,
