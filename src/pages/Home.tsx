@@ -7,17 +7,26 @@ import { Target, Users, Cpu, ArrowRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export function Home() {
+
   const structuredData = {
-    '@context': 'https://schema.org',
-    '@type': 'Person',
-    name: 'Arash Nejad',
-    jobTitle: 'Global Growth Leader',
-    description: 'Multiplying valuations through growth, culture & human-centric leadership.',
-    url: 'https://www.arashnejad.com',
-    sameAs: [
-      'https://linkedin.com/in/arashnejad',
-    ],
-  };
+      '@context': 'https://schema.org',
+      '@type': 'Person',
+      name: 'Arash Nejad',
+      url: 'https://www.arashnejad.com',
+      image: 'https://www.arashnejad.com/images/hero/arash-nejad-portrait.jpg',
+      jobTitle: 'Growth Leader',
+      description: 'Perspectives on growth, culture, and human-centric leadership in complex technical industries.',
+      sameAs: ['https://www.linkedin.com/in/arashnejad/'],
+      knowsAbout: [
+        'Growth strategy',
+        'Go-to-market',
+        'Industrial automation',
+        'Robotics',
+        'AI in industry',
+        'Leadership',
+        'Organizational culture',
+      ],
+    };
 
   const videoStructuredData = {
     '@context': 'https://schema.org',
@@ -148,8 +157,8 @@ export function Home() {
   return (
     <>
       <SEOHead
-        title="Arash Nejad | Growth, Culture, and Human-Centric Leadership"
-        description="Multiplying valuations through growth, culture, and human-centric leadership. Based in Canada, working with leaders across North America, Europe, and global markets."
+        title="Growth, Culture, and Human-Centric Leadership"
+        description="Perspectives on growth, culture, and human-centric leadership from scaling complex global organizations across industrial and technology sectors."
         canonical="https://www.arashnejad.com"
         structuredData={structuredData}
       />
@@ -174,10 +183,10 @@ export function Home() {
                 Multiplying Valuations Through Growth, Culture & Human-Centric Leadership.
               </h1>
               <p className="mb-4 text-lg leading-relaxed">
-                I scale organizations by aligning people with strategy and executing with discipline. I build and reignite teams in complex global industries.
+                I write and speak about scaling organizations through aligned strategy, disciplined execution, and human-centric leadership—especially in complex global industries.
               </p>
               <p className="mb-8 text-lg leading-relaxed">
-                Based in North America, I look forward to connecting with leaders across the world in various markets.
+                Based in North America, I enjoy exchanging perspectives with leaders and operators across global markets.
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button to="/insights" variant="primary">
@@ -240,7 +249,7 @@ export function Home() {
             >
               <h2 className="mb-4">Meet Arash</h2>
               <p className="text-base mb-4">
-                A short introduction to how I think about growth, culture, simplicity, and human centric leadership, and how I help organizations create teams that thrive.
+                A short introduction to how I think about growth, culture, simplicity, and human-centric leadership—and the principles that shape how I lead.
               </p>
               <p className="text-sm text-[var(--color-body-text)]/70 mb-0">
                 3 minutes • Leadership & Growth Strategy
