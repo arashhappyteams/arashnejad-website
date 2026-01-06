@@ -43,7 +43,7 @@ export function Quotes() {
       attribution: 'Leonardo da Vinci',
       commentary: 'In a world of complexity, the ability to simplify is a superpower. The most effective strategies are clear and focused.',
       category: 'Simplicity',
-      // No headshot for this quote
+      headshot: '/images/quotes/leonardo-da-vinci.jpg',
     },
     {
       id: 5,
@@ -67,7 +67,7 @@ export function Quotes() {
       attribution: 'Peter Drucker',
       commentary: 'If you must constantly check on your team, you have not inspired them or delegated effectively. Growth oriented businesses need leaders who guide their teams to do the right things at the right time.',
       category: 'Culture',
-      // No headshot for this quote
+      headshot: '/images/quotes/peter_drucker.jpg',
     },
     {
       id: 8,
@@ -83,7 +83,7 @@ export function Quotes() {
       attribution: 'Jack Welch',
       commentary: 'It goes against your grain to change something that ain\'t broken. Do it before someone does it better. Eat or be eaten.',
       category: 'Growth',
-      // No headshot for this quote
+      headshot: '/images/quotes/jack_welch.jpg',
     },
     {
       id: 10,
@@ -91,7 +91,7 @@ export function Quotes() {
       attribution: 'Martin Seligman',
       commentary: 'Science of happiness is far more advanced than people realize. There is a mathematical formula to bring joy into your lives and most psychologists practice removal of misery instead.',
       category: 'Happiness',
-      headshot: '/images/quotes/quote-author-05-seligman.jpg',
+      headshot: '/images/quotes/quote-author-05-seligman.png',
     },
     {
       id: 11,
@@ -99,7 +99,7 @@ export function Quotes() {
       attribution: 'Theodore Roosevelt',
       commentary: 'Empathy and genuine care are the foundation of effective leadership. Human connection matters more than technical expertise.',
       category: 'Leadership',
-      // No headshot for this quote
+      headshot: '/images/quotes/Theodore-Roosevelt.jpg',
     },
     {
       id: 12,
@@ -107,7 +107,7 @@ export function Quotes() {
       attribution: 'Peter Drucker',
       commentary: 'Much is to be said about execution. I see too many ideas faulter as overthinkers spend too much time trying to predict the future so they never start.',
       category: 'Execution',
-      // No headshot for this quote
+      headshot: '/images/quotes/peter_drucker.jpg',
     },
     {
       id: 13,
@@ -115,7 +115,7 @@ export function Quotes() {
       attribution: 'Doug Conant',
       commentary: 'I really like his journey and focus on happiness, trust, and correlation to productivity.',
       category: 'Culture',
-      headshot: '/images/quotes/quote-author-06-conant.jpg',
+      headshot: '/images/quotes/quote-author-06-conant.png',
     },
     {
       id: 15,
@@ -144,6 +144,7 @@ export function Quotes() {
       attribution: 'Peter Drucker',
       commentary: 'Excessive management signals a lack of trust and produces compliance, not commitment. Strong leaders inspire direction and ownership rather than compensate with control.',
       category: 'Leadership',
+      headshot: '/images/quotes/peter_drucker.jpg',
     },
     {
       id: 19,
