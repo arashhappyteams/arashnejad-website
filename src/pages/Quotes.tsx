@@ -51,7 +51,7 @@ export function Quotes() {
       attribution: 'Simon Sinek',
       commentary: 'Inspired by his book "Leaders Eat Last", the quote is a reminder of what a Servant Leader is. Take care of your employees and they will take care of your business.',
       category: 'Leadership',
-      headshot: 'https://images.unsplash.com/photo-1584940121258-c2553b66a739?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGV4ZWN1dGl2ZSUyMHBvcnRyYWl0fGVufDF8fHx8MTc2NTQ3MjAwMnww&ixlib=rb-4.1.0&q=80&w=1080',
+      headshot: '/images/quotes/quote-author-02-sinek.jpg',
     },
     {
       id: 6,
@@ -59,7 +59,7 @@ export function Quotes() {
       attribution: 'Albert Einstein',
       commentary: 'Challenges are inevitable, but they\'re also catalysts for innovation. The best leaders see obstacles as opportunities.',
       category: 'Leadership',
-      headshot: 'https://images.unsplash.com/photo-1748200100142-e8d4f689acd4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhdXRob3IlMjBwb3J0cmFpdCUyMGhlYWRzaG90fGVufDF8fHx8MTc2NTU0OTYyMnww&ixlib=rb-4.1.0&q=80&w=1080',
+      headshot: '/images/quotes/quote-author-03-einstein.jpg',
     },
     {
       id: 7,
@@ -75,7 +75,7 @@ export function Quotes() {
       attribution: 'Jim Collins',
       commentary: 'CHROs have the shortest lifespan in S&P500 C-suite, because most think they have the strategy or the product so why worry about the people.',
       category: 'Execution',
-      headshot: 'https://images.unsplash.com/photo-1663518629510-016989dc4ee3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxsZWFkZXIlMjBwb3J0cmFpdCUyMHByb2Zlc3Npb25hbHxlbnwxfHx8fDE3NjU1NDk2MjN8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      headshot: '/images/quotes/quote-author-04-collins.jpg',
     },
     {
       id: 9,
@@ -91,7 +91,7 @@ export function Quotes() {
       attribution: 'Martin Seligman',
       commentary: 'Science of happiness is far more advanced than people realize. There is a mathematical formula to bring joy into your lives and most psychologists practice removal of misery instead.',
       category: 'Happiness',
-      headshot: 'https://images.unsplash.com/photo-1717068341511-204207d72705?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYXR1cmUlMjBwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwxfHx8fDE3NjU1NDk2MjN8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      headshot: '/images/quotes/quote-author-05-seligman.jpg',
     },
     {
       id: 11,
@@ -115,7 +115,7 @@ export function Quotes() {
       attribution: 'Doug Conant',
       commentary: 'I really like his journey and focus on happiness, trust, and correlation to productivity.',
       category: 'Culture',
-      headshot: 'https://images.unsplash.com/photo-1717068341511-204207d72705?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtYXR1cmUlMjBwcm9mZXNzaW9uYWwlMjBoZWFkc2hvdHxlbnwxfHx8fDE3NjU1NDk2MjN8MA&ixlib=rb-4.1.0&q=80&w=1080',
+      headshot: '/images/quotes/quote-author-06-conant.jpg',
     },
     {
       id: 15,
