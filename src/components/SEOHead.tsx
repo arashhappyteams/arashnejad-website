@@ -16,11 +16,16 @@ export function SEOHead({
   structuredData,
 }: SEOHeadProps) {
   useEffect(() => {
-    // Set title - only append " | Arash Nejad" if not already present
+    const siteUrl = 'https://www.arashnejad.com';
+
+    // Title: append brand if not already present
     const fullTitle = title.includes('Arash Nejad') ? title : `${title} | Arash Nejad`;
     document.title = fullTitle;
 
-    // Set meta description
+    // Ensure OG image is absolute (better compatibility with scrapers)
+    const ogImageAbsolute = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
+
+    // Meta description
     let metaDescription = document.querySelector('meta[name="description"]');
     if (!metaDescription) {
       metaDescription = document.createElement('meta');
@@ -29,7 +34,7 @@ export function SEOHead({
     }
     metaDescription.setAttribute('content', description);
 
-    // Set canonical URL
+    // Canonical
     let linkCanonical = document.querySelector('link[rel="canonical"]');
     if (!linkCanonical) {
       linkCanonical = document.createElement('link');
@@ -38,13 +43,14 @@ export function SEOHead({
     }
     linkCanonical.setAttribute('href', canonical);
 
-    // Set Open Graph tags
+    // Open Graph
     const ogTags = [
-      { property: 'og:title', content: title },
+      { property: 'og:title', content: fullTitle },
       { property: 'og:description', content: description },
-      { property: 'og:image', content: ogImage },
+      { property: 'og:image', content: ogImageAbsolute },
       { property: 'og:url', content: canonical },
       { property: 'og:type', content: 'website' },
+      { property: 'og:site_name', content: 'Arash Nejad' },
     ];
 
     ogTags.forEach(({ property, content }) => {
@@ -57,12 +63,14 @@ export function SEOHead({
       ogTag.setAttribute('content', content);
     });
 
-    // Set Twitter Card tags
+    // Twitter Card
     const twitterTags = [
       { name: 'twitter:card', content: 'summary_large_image' },
-      { name: 'twitter:title', content: title },
+      { name: 'twitter:title', content: fullTitle },
       { name: 'twitter:description', content: description },
-      { name: 'twitter:image', content: ogImage },
+      { name: 'twitter:image', content: ogImageAbsolute },
+      // Optional: only add if you have an X handle
+      // { name: 'twitter:site', content: '@arashnejad' },
     ];
 
     twitterTags.forEach(({ name, content }) => {
@@ -75,12 +83,13 @@ export function SEOHead({
       twitterTag.setAttribute('content', content);
     });
 
-    // Set structured data
+    // Structured data (do not overwrite other ld+json blocks)
     if (structuredData) {
-      let script = document.querySelector('script[type="application/ld+json"]');
+      let script = document.querySelector('script[type="application/ld+json"][data-seohead="true"]');
       if (!script) {
         script = document.createElement('script');
         script.setAttribute('type', 'application/ld+json');
+        script.setAttribute('data-seohead', 'true');
         document.head.appendChild(script);
       }
       script.textContent = JSON.stringify(structuredData);
