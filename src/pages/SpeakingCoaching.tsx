@@ -30,7 +30,7 @@ export function SpeakingCoaching() {
     'Leading Through Transformation',
     'Transforming into a SaaS Business',
     'Simplifying Strategic Complexity',
-    'Building Predictables Sales and Marketing Teams',
+    'Building Predictable Sales and Marketing Teams',
   ];
 
   const audiences = [
@@ -52,14 +52,14 @@ export function SpeakingCoaching() {
     {
       icon: <TrendingUp size={20} />,
       title: 'Eager Individuals',
-      description: 'Enterprenours who are willing to learn together.',
+      description: 'Entrepreneurs who are willing to learn together.',
     },
   ];
 
   return (
     <>
       <SEOHead
-        title="Executive Dialogue | Arash Nejad | Executive Leadership"
+        title="Executive Dialogue"
         description="Peer dialogue with executives and operators, occasional talks and panels, and structured leadership forums with teams and boards."
         canonical="https://www.arashnejad.com/speaking-coaching"
       />
@@ -126,7 +126,7 @@ export function SpeakingCoaching() {
           >
             <h2 className="text-center mb-4">Popular Topics</h2>
             <p className="text-center text-base text-[var(--color-body-text)] mb-12 max-w-2xl mx-auto">
-              These are some of the most requested topics, but every engagement is customized to your specific challenges and goals.
+              These are some of the most requested topics, but topics vary by audience and context.
             </p>
           </motion.div>
 
