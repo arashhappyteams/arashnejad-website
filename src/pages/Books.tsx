@@ -104,6 +104,14 @@ export function Books() {
       commentary: 'Been around for decades and a must for anyone choosing careers, teenagers, and professionals trying to decide between two jobs',
       amazonUrl: 'https://www.amazon.com/10x-Easier-Than-World-Class-Entrepreneurs/dp/140196995X',
     },
+    {
+      id: 13,
+      title: 'Driving Explosive Growth',
+      author: 'Mark Allen Roberts',
+      year: '2023',
+      commentary: 'I met Mark through a consultation and a PE connection. He is incredible at making the sales process simple. He provides consulation, training, and is deeply vested with parties he works with. Highly Recommend his book.',
+      amazonUrl: 'https://www.amazon.ca/Driving-Explosive-Growth-Approach-Profitably/dp/B0C9KTRGFY',
+    },
   ];
 
   return (
@@ -150,6 +158,7 @@ export function Books() {
                   '/images/books/book-cover-10-green.jpg',
                   '/images/books/book-cover-11-yellow.jpg',
                   '/images/books/book-cover-12-black.jpg',
+                  '/images/books/Driving-Explosive-Growth.jpg',
               ];
 
               return (
