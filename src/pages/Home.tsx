@@ -183,7 +183,7 @@ export function Home() {
                 Multiplying Valuations Through Growth, Culture & Human-Centric Leadership.
               </h1>
               <p className="mb-4 text-lg leading-relaxed">
-                I write and speak about scaling organizations through aligned strategy, disciplined execution, and human-centric leadership—especially in complex global industries.
+                I write and speak about scaling organizations through aligned strategy, disciplined execution, and human-centric leadership, especially in complex global industries.
               </p>
               <p className="mb-8 text-lg leading-relaxed">
                 Based in North America, I enjoy exchanging perspectives with leaders and operators across global markets.
