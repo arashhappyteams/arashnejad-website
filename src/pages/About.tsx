@@ -106,7 +106,7 @@ export function About() {
       />
 
       {/* Hero Section */}
-      <section className="pt-24 pb-16 bg-white">
+      <section className="pt-24 pb-12 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
             {/* Portrait */}
@@ -166,7 +166,7 @@ export function About() {
       </section>
 
       {/* Education Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-12 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -174,7 +174,7 @@ export function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-center mb-12">Education</h2>
+            <h2 className="text-center mb-8">Education</h2>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -199,8 +199,7 @@ export function About() {
                   decoding="async"
                 />
               </div>
-              <p className="font-semibold text-[var(--color-primary)] mb-1 group-hover:text-[var(--color-accent)] transition-colors">Executive Education</p>
-              <p className="text-xs text-[var(--color-body-text)] mb-0">Harvard Business School</p>
+              <p className="font-semibold text-[var(--color-primary)] mb-0 group-hover:text-[var(--color-accent)] transition-colors">Executive Education</p>
             </motion.a>
 
             <motion.a
@@ -224,8 +223,7 @@ export function About() {
                   decoding="async"
                 />
               </div>
-              <p className="font-semibold text-[var(--color-primary)] mb-1 group-hover:text-[var(--color-accent)] transition-colors">Executive Education</p>
-              <p className="text-xs text-[var(--color-body-text)] mb-0">The Wharton School</p>
+              <p className="font-semibold text-[var(--color-primary)] mb-0 group-hover:text-[var(--color-accent)] transition-colors">Executive Education</p>
             </motion.a>
 
             <motion.a
@@ -249,8 +247,7 @@ export function About() {
                   decoding="async"
                 />
               </div>
-              <p className="font-semibold text-[var(--color-primary)] mb-1 group-hover:text-[var(--color-accent)] transition-colors">Leadership Development</p>
-              <p className="text-xs text-[var(--color-body-text)] mb-0">GE Management Development Institute</p>
+              <p className="font-semibold text-[var(--color-primary)] mb-0 group-hover:text-[var(--color-accent)] transition-colors">Leadership Development</p>
             </motion.a>
 
             <motion.a
@@ -282,7 +279,7 @@ export function About() {
       </section>
 
       {/* Philosophy Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-12 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -290,7 +287,7 @@ export function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-center mb-12">My Philosophy</h2>
+            <h2 className="text-center mb-8">My Philosophy</h2>
           </motion.div>
 
           <div className="space-y-6">
@@ -319,7 +316,7 @@ export function About() {
       </section>
 
       {/* Global Perspective Section */}
-      <section className="py-16 bg-white">
+      <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -327,7 +324,7 @@ export function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-center mb-12">Track Record of Impact</h2>
+            <h2 className="text-center mb-8">Track Record of Impact</h2>
           </motion.div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
@@ -350,7 +347,7 @@ export function About() {
       </section>
 
       {/* Industry Experience Section */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-12 bg-gray-50">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -358,7 +355,7 @@ export function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-center mb-12">Industry Experience</h2>
+            <h2 className="text-center mb-8">Industry Experience</h2>
           </motion.div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
@@ -383,7 +380,7 @@ export function About() {
       </section>
 
       {/* Media & Publications Section */}
-      <section className="py-16 bg-white">
+      <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -391,11 +388,11 @@ export function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h2 className="text-center mb-12">Media & Publications</h2>
+            <h2 className="text-center mb-8">Media & Publications</h2>
           </motion.div>
 
           {/* Recent Media */}
-          <div className="mb-12">
+          <div className="mb-10">
             <h3 className="mb-6">Recent Media</h3>
             <div className="space-y-4">
               <motion.a
@@ -532,14 +529,14 @@ export function About() {
       </section>
 
       {/* Life Beyond Leadership Section */}
-      <section className="py-16 bg-white">
+      <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="text-center mb-12"
+            className="text-center mb-8"
           >
             <h2 className="mb-4">Life Beyond Leadership</h2>
             <p className="text-base text-[var(--color-body-text)] max-w-2xl mx-auto">
@@ -640,7 +637,7 @@ export function About() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-white">
+      <section className="py-12 bg-white">
         <div className="max-w-4xl mx-auto px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
