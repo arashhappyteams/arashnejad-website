@@ -274,8 +274,8 @@ export function About() {
                   decoding="async"
                 />
               </div>
-              <p className="font-semibold text-[var(--color-primary)] mb-1 group-hover:text-[var(--color-accent)] transition-colors">BSc & MSc</p>
-              <p className="text-xs text-[var(--color-body-text)] mt-1 mb-0">Electrical & Computer Engineering</p>
+             /*  <p className="font-semibold text-[var(--color-primary)] mb-1 group-hover:text-[var(--color-accent)] transition-colors">BSc & MSc</p> */
+              <p className="text-xs text-[var(--color-body-text)] mt-1 mb-0">BSc MSc Electrical & Computer Engineering</p>
             </motion.a>
           </div>
         </div>
