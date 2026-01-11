@@ -69,7 +69,7 @@ export function About() {
     {
       number: '01',
       title: 'Simplicity',
-      description: 'The best strategies are simple, clear, and actionable. To me, it\'s not a 2-min pitch. You get 30 seconds.',
+      description: 'The best strategies are simple, clear, and actionable. To me, it\'s not a 2-min pitch. It has to be within 10 seconds.',
     },
     {
       number: '02',
@@ -451,4 +451,219 @@ export function About() {
                 whileHover={{ y: -4, borderColor: 'var(--color-accent)', boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1)' }}
                 className="block bg-white p-6 rounded-lg border-2 border-gray-100 transition-all duration-200"
               >
-                <div className="flex items
+                <div className="flex items-start justify-between gap-4">
+                  <div className="flex-1">
+                    <p className="text-sm text-[var(--color-body-text)] mb-2">May 2023</p>
+                    <h4 className="mb-2">Fabrication & Welding</h4>
+                    <p className="text-sm text-[var(--color-body-text)] mb-0">Canadian Metalworking</p>
+                  </div>
+                  <ExternalLink size={20} className="text-[var(--color-primary)] flex-shrink-0" />
+                </div>
+              </motion.a>
+            </div>
+          </div>
+
+          {/* Academic Research */}
+          <div>
+            <h3 className="mb-6">Academic Research</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.05 }}
+                className="bg-gray-50 p-6 rounded-lg border-l-4 border-[var(--color-accent)]"
+              >
+                <p className="text-sm text-[var(--color-body-text)] mb-2">October 2016</p>
+                <h4 className="mb-2">Pump Storage Power Plants' Flexibility and Constraints</h4>
+                <p className="text-sm text-[var(--color-body-text)] mb-0">31st Power System Conference</p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.1 }}
+                className="bg-gray-50 p-6 rounded-lg border-l-4 border-[var(--color-accent)]"
+              >
+                <p className="text-sm text-[var(--color-body-text)] mb-2">January 2005</p>
+                <h4 className="mb-2">Voltage Stability Constrained Optimal Power Flow</h4>
+                <p className="text-sm text-[var(--color-body-text)] mb-0">Automation of Electric Power Systems, Issue 16</p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.15 }}
+                className="bg-gray-50 p-6 rounded-lg border-l-4 border-[var(--color-accent)]"
+              >
+                <p className="text-sm text-[var(--color-body-text)] mb-2">May 2003</p>
+                <h4 className="mb-2">Communication Protocols in Substation Automation and SCADA</h4>
+                <p className="text-sm text-[var(--color-body-text)] mb-0">19th Power Engineering Conference in the Middle East</p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                className="bg-gray-50 p-6 rounded-lg border-l-4 border-[var(--color-accent)]"
+              >
+                <p className="text-sm text-[var(--color-body-text)] mb-2">January 2003</p>
+                <h4 className="mb-2">Low-power Single-bit Full Adder Cells</h4>
+                <p className="text-sm text-[var(--color-body-text)] mb-0">Canadian Journal of Electrical and Computer Engineering, Vol 28, Issue 1</p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: 0.25 }}
+                className="bg-gray-50 p-6 rounded-lg border-l-4 border-[var(--color-accent)]"
+              >
+                <p className="text-sm text-[var(--color-body-text)] mb-2">June 2002</p>
+                <h4 className="mb-2">Software-Controlled Electromechanical Model of Functional Gastric Stimulation</h4>
+                <p className="text-sm text-[var(--color-body-text)] mb-0">27th International Conference on ICT&P</p>
+              </motion.div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Life Beyond Leadership Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="text-center mb-12"
+          >
+            <h2 className="mb-4">Life Beyond Leadership</h2>
+            <p className="text-base text-[var(--color-body-text)] max-w-2xl mx-auto">
+              When I'm not scaling organizations, you'll find me pushing my own limits and cherishing moments with the people I love.
+            </p>
+          </motion.div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+            {/* Skiing */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6 }}
+              whileHover={{ y: -4 }}
+              className="relative group overflow-hidden rounded-lg shadow-lg"
+            >
+              <div className="aspect-[4/3] overflow-hidden">
+                <img
+                  src="/images/about/hobbies/skiing-mountain.jpg"
+                  alt="Skiing in the mountains"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6">
+                <h3 className="text-white mb-2">Skiing</h3>
+                <p className="text-white/90 text-sm mb-0">Finding clarity on the slopes, where every turn requires focus and commitment.</p>
+              </div>
+            </motion.div>
+
+            {/* Marathon Running */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.1 }}
+              whileHover={{ y: -4 }}
+              className="relative group overflow-hidden rounded-lg shadow-lg"
+            >
+              <div className="aspect-[4/3] overflow-hidden">
+                <img
+                  src="/images/about/hobbies/marathon-running.jpg"
+                  alt="Marathon running"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6">
+                <h3 className="text-white mb-2">Marathon Running</h3>
+                <p className="text-white/90 text-sm mb-0">Endurance isn't just physical—it's a mindset that applies to everything I do.</p>
+              </div>
+            </motion.div>
+
+            {/* Rock Climbing */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              whileHover={{ y: -4 }}
+              className="relative group overflow-hidden rounded-lg shadow-lg"
+            >
+              <div className="aspect-[4/3] overflow-hidden">
+                <img
+                  src="/images/about/hobbies/rock-climbing.jpg"
+                  alt="Rock climbing outdoors"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6">
+                <h3 className="text-white mb-2">Rock Climbing</h3>
+                <p className="text-white/90 text-sm mb-0">Every route is a puzzle. Problem-solving under pressure builds resilience.</p>
+              </div>
+            </motion.div>
+
+            {/* Family Time */}
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              whileHover={{ y: -4 }}
+              className="relative group overflow-hidden rounded-lg shadow-lg"
+            >
+              <div className="aspect-[4/3] overflow-hidden">
+                <img
+                  src="/images/about/hobbies/family-time.jpg"
+                  alt="Quality time with family"
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6">
+                <h3 className="text-white mb-2">Family</h3>
+                <p className="text-white/90 text-sm mb-0">The foundation of everything. These moments remind me what truly matters.</p>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-16 bg-white">
+        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="bg-gray-50 p-8 rounded-lg text-center"
+          >
+            <h3 className="mb-4">Let's Connect</h3>
+            <p className="text-base mb-6">
+              Follow my journey on LinkedIn or reach out to continue the conversation.
+            </p>
+            <div className="flex flex-wrap gap-4 justify-center">
+              <Button href="https://www.linkedin.com/in/arashnejad/" variant="primary">
+                View LinkedIn Profile
+              </Button>
+              <Button to="/contact" variant="secondary">
+                Continue the Conversation
+              </Button>
+            </div>
+          </motion.div>
+        </div>
+      </section>
+    </>
+  );
+}
