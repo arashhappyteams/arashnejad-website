@@ -613,7 +613,7 @@ export function About() {
               </div>
             </motion.div>
 
-            {/* Family Time */}
+            {/* World Traveller */}
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
@@ -624,14 +624,14 @@ export function About() {
             >
               <div className="aspect-[4/3] overflow-hidden">
                 <img
-                  src="/images/about/hobbies/family-time.jpg"
-                  alt="Quality time with family"
+                  src="/images/about/hobbies/Traveller.jpg"
+                  alt="Always on the road"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-6">
-                <h3 className="text-white mb-2">Family</h3>
-                <p className="text-white/90 text-sm mb-0">The foundation of everything. These moments remind me what truly matters.</p>
+                <h3 className="text-white mb-2">Travel</h3>
+                <p className="text-white/90 text-sm mb-0">You learn the most throug travelling.</p>
               </div>
             </motion.div>
           </div>
