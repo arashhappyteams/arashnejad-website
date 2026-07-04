@@ -7,6 +7,15 @@ export function Insights() {
   const insights = [
     {
       id: 1,
+      title: 'Drive Excellence, Not Perfectionism',
+      excerpt: 'A fast decision beats a perfect decision. Perfectionism is the most expensive habit in business. It costs you opportunities, it costs your team its growth, and if you\'re not careful, it costs your kids their happiness. Push for continuous improvement and excellence instead.',
+      readTime: '6 min read',
+      tags: ['Leadership', 'Culture', 'Decision-Making'],
+      date: 'July 2026',
+      slug: 'drive-excellence-not-perfectionism',
+    },
+    {
+      id: 2,
       title: 'Growth Is Uncomfortable by Design',
       excerpt: 'Growth and comfort are allergic to each other. This article is written for leaders responsible for scaling organizations who have mastered operational discipline and are now confronting a harder truth: execution alone does not produce growth.',
       readTime: '8 min read',
@@ -15,7 +24,7 @@ export function Insights() {
       slug: 'growth-is-uncomfortable-by-design',
     },
     {
-      id: 2,
+      id: 3,
       title: 'Have We Forgotten How to Negotiate?',
       excerpt: 'After more than a decade in sales organizations, I have sat through countless pricing calls and discount debates. The pattern is familiar: fear drives decisions internally, while value is left undefined externally.',
       readTime: '8 min read',
@@ -24,7 +33,7 @@ export function Insights() {
       slug: 'have-we-forgotten-how-to-negotiate',
     },
     {
-      id: 3,
+      id: 4,
       title: '4 Rules to Build High-Performing Teams',
       excerpt: 'Leaders don\'t achieve anything. It is the teams that they build and inspire who achieve the things leaders brag about.',
       readTime: '10 min read',
@@ -33,7 +42,7 @@ export function Insights() {
       slug: '4-rules-to-build-high-performing-teams',
     },
     {
-      id: 4,
+      id: 5,
       title: 'Can Professionals Still Be Managed?',
       excerpt: 'For decades, organizations have relied on managers to direct work, enforce processes, and deliver results. Yet the modern workplace tells a different story: professionals do not want to be managed; they want to be led.',
       readTime: '9 min read',
@@ -42,7 +51,7 @@ export function Insights() {
       slug: 'can-professionals-still-be-managed',
     },
     {
-      id: 5,
+      id: 6,
       title: 'Empathy vs. Capitalism',
       excerpt: 'Leadership demands focus, discipline, and performance. But what happens when performance collides with human emotion? Where does empathy fit when capitalism demands results?',
       readTime: '9 min read',
@@ -51,7 +60,7 @@ export function Insights() {
       slug: 'empathy-vs-capitalism',
     },
     {
-      id: 6,
+      id: 7,
       title: 'How to Succeed in Turbulent Times',
       excerpt: 'We are operating in an era of sustained turbulence. The question for leaders is no longer how to predict the future, but how to navigate forward when certainty no longer exists.',
       readTime: '10 min read',
@@ -60,7 +69,7 @@ export function Insights() {
       slug: 'how-to-succeed-in-turbulent-times',
     },
     {
-      id: 7,
+      id: 8,
       title: 'How to Destroy Your Competition',
       excerpt: 'The most effective way to outperform your competition is not through price wars, feature parity, or aggressive marketing. It is through loyalty.',
       readTime: '9 min read',
@@ -69,7 +78,7 @@ export function Insights() {
       slug: 'how-to-destroy-your-competition',
     },
     {
-      id: 8,
+      id: 9,
       title: 'What Marketing Actually Is',
       excerpt: 'At its core, marketing is the discipline of translating business objectives into market-facing decisions. It sits at the intersection of strategy, customer insight, product design, pricing, and growth.',
       readTime: '8 min read',
@@ -194,3 +203,4 @@ export function Insights() {
     </>
   );
 }
+```
