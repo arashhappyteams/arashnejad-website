@@ -16,6 +16,152 @@ export interface Article {
 // All articles - add new articles here
 export const articles: Article[] = [
   {
+    slug: 'drive-excellence-not-perfectionism',
+    title: 'Drive Excellence, Not Perfectionism',
+    description: 'A fast decision beats a perfect decision. Perfectionism is the most expensive habit in business. It costs you opportunities, it costs your team its growth, and if you\'re not careful, it costs your kids their happiness. What I push for instead is continuous improvement and excellence, and the distinction matters more than most people realize.',
+    date: 'July 2026',
+    category: 'Leadership',
+    tags: ['Leadership', 'Culture', 'Decision-Making'],
+    readingTime: '6 min read',
+    tableOfContents: [
+      { id: 'section-1', text: 'Continuous Improvement Is Not Perfectionism' },
+      { id: 'section-2', text: 'Most Doors Are Two-Way Doors' },
+      { id: 'section-3', text: 'Perfectionists Hide in Safe Zones' },
+      { id: 'section-4', text: 'Your Market Won\'t Wait for Perfect, or for You' },
+      { id: 'section-5', text: 'The Perfection Signals Are Getting Louder' },
+      { id: 'section-6', text: 'Chase Finite, Achievable Goals' },
+    ],
+    content: (
+      <>
+        {/* Opening Quote */}
+        <blockquote className="my-8 pl-6 border-l-4 border-[var(--color-accent)] bg-gray-50 py-4 pr-6 rounded-r-lg">
+          <p className="italic text-lg mb-2">
+            "Perfect is the enemy of good."
+          </p>
+          <p className="text-base mb-0">
+            — Voltaire
+          </p>
+        </blockquote>
+
+        <p>
+          Voltaire said that almost 300 years ago. Years of leading teams and I have to repeat the same thing: a fast decision beats a perfect decision. Perfectionism is the most expensive habit in business. It costs you opportunities, it costs your team its growth, and if you're not careful, it costs your kids their happiness. The data backs it up. What I push for instead is continuous improvement and excellence, and the distinction matters more than most people realize.
+        </p>
+        <p>
+          What brought this into focus for me was a piece <a href="https://adamgrant.net/" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline">Adam Grant</a> sent out on why the youth mental health crisis runs deeper than smartphones. It pointed me to his WorkLife episode on <a href="https://www.ted.com/podcasts/worklife/breaking-up-with-perfectionism-transcript" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline">breaking up with perfectionism</a> with <a href="https://www.lse.ac.uk/people/thomas-curran" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline">Thomas Curran</a>, the London School of Economics psychologist who is the leading expert on the subject. It stopped me in my tracks, not just as a leader of teams, but as a parent.
+        </p>
+
+        {/* H2 Section 1 */}
+        <section id="section-1" className="mb-12 scroll-mt-32">
+          <h2 className="mb-6">Continuous Improvement Is Not Perfectionism</h2>
+          <p>
+            Let's kill the confusion up front, because this article is not a license to lower the bar. Excellence is about the work. Perfectionism is about you. When someone chasing excellence fails, they conclude the process was flawed and fix the process. When a perfectionist fails, they conclude they are flawed and try to fix themselves. Same failure, completely different lesson.
+          </p>
+          <p>
+            Continuous improvement has a direction: better than yesterday, measured against your own last performance. Perfection has a destination, and it's one that doesn't exist. One of the divers Grant coached alongside said it best: it's about "making it a me against me type of thing, rather than me against perfection." That's the standard I hold myself to and the one I want from my teams. Improve every week. Never expect flawless.
+          </p>
+        </section>
+
+        {/* H2 Section 2 */}
+        <section id="section-2" className="mb-12 scroll-mt-32">
+          <h2 className="mb-6">Most Doors Are Two-Way Doors</h2>
+          <p>
+            Businesses spend so much time engineering the perfect call that by the time they make it, the ship has sailed. And here's the thing: rarely in business do you come across a one-way door. Jeff Bezos <a href="https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline">made this famous</a>. Most decisions are reversible, two-way doors, and they should be made quickly. So what's the harm in testing it? If it's the wrong door, retreat quickly. Learn why you took that door, improve the next decision, and walk through the next one smarter. That loop, decide fast, learn, decide better, is continuous improvement in action.
+          </p>
+          <p>
+            Perfectionists can't run this loop. Curran explains why:
+          </p>
+        </section>
+
+        {/* Blockquote 1 */}
+        <blockquote className="my-8 pl-6 border-l-4 border-[var(--color-accent)] bg-gray-50 py-4 pr-6 rounded-r-lg">
+          <p className="italic text-lg mb-2">
+            "Perfectionism at root is a need and a requirement to be perfect, because ultimately we feel that we're flawed, that we're defective, and that there's something imperfect about us that needs to be repaired."
+          </p>
+          <p className="text-base mb-0">
+            — <a href="https://www.lse.ac.uk/people/thomas-curran" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline">Thomas Curran</a>
+          </p>
+        </blockquote>
+
+        <p>
+          When every mistake is an indictment of who you are, every door looks like a one-way door.
+        </p>
+
+        {/* H2 Section 3 */}
+        <section id="section-3" className="mb-12 scroll-mt-32">
+          <h2 className="mb-6">Perfectionists Hide in Safe Zones</h2>
+          <p>
+            Here's the flaw I've watched play out in teams for years. Perfectionists keep playing in areas where mistakes are rare for them. They've either perfected the domain or it's a safe zone where they know they won't fail. They get comfortable. And comfort kills growth.
+          </p>
+          <p>
+            Curran's research confirms it. Perfectionists don't lack effort, he says:
+          </p>
+        </section>
+
+        {/* Blockquote 2 */}
+        <blockquote className="my-8 pl-6 border-l-4 border-[var(--color-accent)] bg-gray-50 py-4 pr-6 rounded-r-lg">
+          <p className="italic text-lg mb-2">
+            "They're quite strategic about where that effort is placed. And it's often very inefficient. It's placed in areas where there's very high chance of success and away from areas where there's a very high chance of failure."
+          </p>
+          <p className="text-base mb-0">
+            — <a href="https://www.lse.ac.uk/people/thomas-curran" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline">Thomas Curran</a>
+          </p>
+        </blockquote>
+
+        <p>
+          Grant added the line that stuck with me most: "Practice can make perfect, but it doesn't make new." The numbers agree. A <a href="https://psycnet.apa.org/doiLanding?doi=10.1037%2Fapl0000324" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline">meta-analysis</a> found perfectionism predicted higher performance in school, but not on the job. As Grant put it on the podcast, perfectionism might help you ace a math test, but at work there is rarely one right answer.
+        </p>
+
+        {/* H2 Section 4 */}
+        <section id="section-4" className="mb-12 scroll-mt-32">
+          <h2 className="mb-6">Your Market Won't Wait for Perfect, or for You</h2>
+          <p>
+            A team optimizing for zero mistakes is a team optimizing for standing still. We operate in a VUCA world, a term the U.S. Army War College coined for environments that are volatile, uncertain, complex, and ambiguous. Your competitors, your market, and the technology underneath you are all moving. You need your people stretching into unfamiliar territory, not polishing what they've already mastered.
+          </p>
+          <p>
+            But understand this: standing still kills you just as surely. A business that isn't improving is failing, just slowly. The bar rises every quarter whether you engage or not, and companies that stop driving excellence get passed by companies that never stopped. So the failure mode cuts both ways. Chase perfection and you freeze. Abandon excellence and you fall behind. Continuous improvement is the only lane that stays open.
+          </p>
+          <p>
+            <a href="https://www.linkedin.com/in/michael-lefenfeld-836a41" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline">Michael Lefenfeld</a>, CEO of <a href="https://www.hexion.com/" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline">Hexion</a>, once said that if you aren't failing several times a week, you aren't trying hard enough. That's the key. General Patton made the same point about war: a good plan violently executed now is better than a perfect plan executed next week. Grant runs the same play on himself with a fail quota: "If I haven't had at least three projects flop at the end of the year, I know I've just been repeating what I'm already good at and staying in my comfort zone."
+          </p>
+        </section>
+
+        {/* H2 Section 5 */}
+        <section id="section-5" className="mb-12 scroll-mt-32">
+          <h2 className="mb-6">The Perfection Signals Are Getting Louder</h2>
+          <p>
+            This is the part that hit me as a father. It's brutal out there. Curran's <a href="https://www.apa.org/pubs/journals/releases/bul-bul0000138.pdf" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline">research</a> tracked college students from 1989 to 2016 and found the belief that "others expect me to be perfect" jumped 33 percent, the fastest-growing form of perfectionism and the one most correlated with depression. A <a href="https://adamgrant.substack.com/p/theres-more-to-the-mental-health" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline">new analysis</a> of 307 studies covering nearly 83,000 students shows the trend accelerating, and it started a generation before smartphones. The phones only amplify what the culture, and often we as parents, already broadcast.
+          </p>
+        </section>
+
+        {/* Pull Quote */}
+        <div className="my-12 text-center px-6 py-8 bg-[var(--color-accent)]/5 rounded-lg">
+          <div className="max-w-2xl mx-auto">
+            <p className="text-2xl text-[var(--color-primary)] italic mb-0 relative">
+              <span className="text-[var(--color-accent)] text-4xl absolute -left-4 -top-2">&ldquo;</span>
+              Mistakes don't make you a failure. They make you a learner.
+              <span className="text-[var(--color-accent)] text-4xl absolute -right-4 -bottom-6">&rdquo;</span>
+            </p>
+            <p className="text-base text-[var(--color-body-text)] mt-4 mb-0">
+              — <a href="https://adamgrant.net/" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline">Adam Grant</a>
+            </p>
+          </div>
+        </div>
+
+        {/* H2 Section 6 */}
+        <section id="section-6" className="mb-12 scroll-mt-32">
+          <h2 className="mb-6">Chase Finite, Achievable Goals</h2>
+          <p>
+            Perfection is inherently impossible, and chasing it will rob you of the happiness that comes from hitting a finite goal that is actually possible. Don't chase being rich. Chase financial security that lets you live without working for 18 months. One is a moving target you'll never hit. The other is a number you can reach, celebrate, and build on. Then set the next one. That's what continuous improvement looks like in a life, not just in a business.
+          </p>
+          <p>
+            Grant learned this lesson as a competitive diver, and it's the best summary of the whole episode: "Instead of aiming for perfection, it's healthier and more effective to strive for excellence." So the same rule I give my teams, I'm now giving my kids: take the door. If it's the wrong one, come back through it and take a better one next time. That's not failure. That's the whole game.
+          </p>
+        </section>
+      </>
+    ),
+  },
+
+  {
     slug: 'growth-is-uncomfortable-by-design',
     title: 'Growth Is Uncomfortable by Design',
     description: 'Growth and comfort are allergic to each other. This is not a comfortable conversation. This article is written for leaders responsible for scaling organizations—CEOs, board members, and senior executives—who have already mastered operational discipline and are now confronting a harder truth: execution alone does not produce growth.',
@@ -1166,4 +1312,4 @@ export function getRecommendedArticles(currentSlug: string, limit: number = 3): 
   return articles
     .filter((article) => article.slug !== currentSlug)
     .slice(0, limit);
-}
+}```
