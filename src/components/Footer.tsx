@@ -7,7 +7,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3 text-sm text-[var(--color-body-text)]">
-            <span>&copy; 2026 Aria Developments Inc. All rights reserved.</span>
+            <span>&copy; 2026 Arash Shoari Nejad. All rights reserved.</span>
             <span className="text-gray-300">•</span>
             <Link 
               to="/privacy-policy" 
