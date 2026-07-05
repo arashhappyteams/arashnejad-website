@@ -6,7 +6,7 @@ export function PrivacyPolicy() {
     <>
       <SEOHead
         title="Privacy Policy - Arash Nejad"
-        description="Privacy Policy for arashnejad.com. Learn how Aria Developments Inc. collects, uses, and protects your personal information."
+        description="Privacy Policy for arashnejad.com. Learn how Arash Shoari Nejad collects, uses, and protects your personal information."
         canonical="https://www.arashnejad.com/privacy-policy"
       />
 
@@ -29,7 +29,7 @@ export function PrivacyPolicy() {
                   Welcome to arashnejad.com ("the Website").
                 </p>
                 <p className="text-base mb-4">
-                  This Website is owned and operated by Aria Developments Inc.
+                  This Website is owned and operated by Arash Shoari Nejad.
                 </p>
                 <p className="text-base mb-4">
                   This Privacy Policy explains how personal information is collected, used, and protected when you visit this Website or interact with it.
@@ -100,19 +100,15 @@ export function PrivacyPolicy() {
               </div>
 
               <div>
-                <h2 className="mb-4">Third-Party Links and Affiliate Disclosure</h2>
+                <h2 className="mb-4">Third-Party Links</h2>
                 <p className="text-base mb-4">
-                  This Website may contain links to third-party websites, including Amazon affiliate links.
+                  This Website may contain links to third-party websites.
                 </p>
                 <p className="text-base mb-4">
                   If you click a third-party link, you will be directed to that website.
                 </p>
                 <p className="text-base mb-4">
-                  Aria Developments Inc. is not responsible for the privacy practices or content of external sites.
-                </p>
-                <p className="text-base mb-4">
-                  <strong>Affiliate disclosure:</strong><br />
-                  As an Amazon Associate, Aria Developments Inc. may earn from qualifying purchases.
+                  Arash Shoari Nejad is not responsible for the privacy practices or content of external sites.
                 </p>
               </div>
 
