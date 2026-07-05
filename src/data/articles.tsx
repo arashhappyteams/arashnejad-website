@@ -18,7 +18,7 @@ export const articles: Article[] = [
   {
     slug: 'drive-excellence-not-perfectionism',
     title: 'Drive Excellence, Not Perfectionism',
-    description: 'A fast decision beats a perfect decision. Perfectionism is the most expensive habit in business. It costs you opportunities, it costs your team its growth, and if you\'re not careful, it costs your kids their happiness. What I push for instead is continuous improvement and excellence, and the distinction matters more than most people realize.',
+    description: 'A fast decision beats a perfect decision. Perfectionism is the most expensive habit in business. It costs you opportunities, it costs your team, the growth, and maybe your kids happiness. What we should push for is continuous improvement and excellence, and the distinction matters more than most people realize.',
     date: 'July 2026',
     category: 'Leadership',
     tags: ['Leadership', 'Culture', 'Decision-Making'],
