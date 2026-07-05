@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { SEOHead } from '../components/SEOHead';
-import { BookOpen, ArrowRight } from 'lucide-react';
+import { BookOpen } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -209,19 +209,6 @@ export function Books() {
                         <span className="text-[#D9A441] italic mr-1">My reflection:</span>
                         {book.commentary}
                       </p>
-
-                      {/* Amazon Button */}
-                      <div className="mt-auto">
-                        <a
-                          href={book.amazonUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-2 text-sm text-[var(--color-primary)] border border-[var(--color-primary)] px-3 py-1.5 rounded-md hover:bg-[var(--color-primary)] hover:text-white transition-all duration-200"
-                        >
-                          Buy on Amazon
-                          <ArrowRight size={14} />
-                        </a>
-                      </div>
                     </div>
                   </div>
                 </motion.div>
@@ -342,15 +329,6 @@ export function Books() {
           </motion.div>
         </div>
       </section>
-
-      {/* Affiliate Disclosure */}
-      <div className="pb-8 bg-white">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <p className="text-xs text-gray-400 text-center">
-            As an Amazon Associate, Aria Developments Inc. may earn from qualifying purchases.
-          </p>
-        </div>
-      </div>
     </>
   );
 }
