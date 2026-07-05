@@ -38,13 +38,41 @@
         <meta name="twitter:image" content="https://www.arashnejad.com/images/seo/og-image.jpg" />
       
         <script>
-          (function () {
-            var redirect = sessionStorage.redirect;
-            delete sessionStorage.redirect;
-            if (redirect && redirect !== window.location.pathname) {
-              history.replaceState(null, null, redirect);
+          // GitHub Pages SPA redirect decoder (pairs with 404.html)
+          (function (l) {
+            if (l.search[1] === '/') {
+              var decoded = l.search.slice(1).split('&').map(function (s) {
+                return s.replace(/~and~/g, '&');
+              }).join('?');
+              window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
             }
-          })();
+          })(window.location);
+        </script>
+
+        <!-- Structured data -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Arash Shoari Nejad",
+          "alternateName": "Arash Nejad",
+          "url": "https://www.arashnejad.com",
+          "image": "https://www.arashnejad.com/images/hero/arash-nejad-portrait.jpg",
+          "jobTitle": "Enterprise Growth and Transformation Executive",
+          "description": "Executive focused on scaling organizations through aligned strategy, disciplined execution, and human-centric leadership across industrial and technology sectors.",
+          "sameAs": [
+            "https://www.linkedin.com/in/arashnejad/"
+          ],
+          "knowsAbout": ["Leadership", "Organizational Growth", "Industrial AI", "Enterprise Transformation", "Sales Strategy", "Team Building"]
+        }
+        </script>
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "name": "Arash Nejad",
+          "url": "https://www.arashnejad.com"
+        }
         </script>
     </head>
 
@@ -54,4 +82,3 @@
       <script type="module" src="/src/main.tsx"></script>
     </body>
   </html>
-  
