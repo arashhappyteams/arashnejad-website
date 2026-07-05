@@ -39,7 +39,51 @@
   </url>
 
   <url>
-    <loc>https://www.arashnejad.com/privacy</loc>
+    <loc>https://www.arashnejad.com/privacy-policy</loc>
     <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.arashnejad.com/insights/drive-excellence-not-perfectionism</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.arashnejad.com/insights/growth-is-uncomfortable-by-design</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.arashnejad.com/insights/4-rules-to-build-high-performing-teams</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.arashnejad.com/insights/have-we-forgotten-how-to-negotiate</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.arashnejad.com/insights/can-professionals-still-be-managed</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.arashnejad.com/insights/empathy-vs-capitalism</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.arashnejad.com/insights/how-to-succeed-in-turbulent-times</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.arashnejad.com/insights/how-to-destroy-your-competition</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://www.arashnejad.com/insights/what-marketing-actually-is</loc>
+    <priority>0.7</priority>
   </url>
 </urlset>
