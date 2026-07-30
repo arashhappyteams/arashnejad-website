@@ -18,7 +18,7 @@ export const articles: Article[] = [
   {
     slug: 'drive-excellence-not-perfectionism',
     title: 'Drive Excellence, Not Perfectionism',
-    description: 'A fast decision beats a perfect decision. Perfectionism is the most expensive habit in business. It costs you opportunities, it costs your team, the growth, and maybe your kids happiness. What we should push for is continuous improvement and excellence, and the distinction matters more than most people realize.',
+    description: 'A fast decision beats a perfect decision. Perfectionism is the most expensive habit in business. It costs your team, the projected growth, and maybe your kids\' happiness. What we should do instead is to push for continuous improvement and excellence, and the distinction matters more than most people realize.',
     date: 'July 2026',
     category: 'Leadership',
     tags: ['Leadership', 'Culture', 'Decision-Making'],
@@ -39,12 +39,12 @@ export const articles: Article[] = [
             "Perfect is the enemy of good."
           </p>
           <p className="text-base mb-0">
-            — Voltaire
+            - Voltaire
           </p>
         </blockquote>
 
         <p>
-          Voltaire said that almost 300 years ago. Years of leading teams and I have to repeat the same thing: a fast decision beats a perfect decision. Perfectionism is the most expensive habit in business. It costs you opportunities, it costs your team its growth, and if you're not careful, it costs your kids their happiness. The data backs it up. What I push for instead is continuous improvement and excellence, and the distinction matters more than most people realize.
+          Voltaire said that almost 300 years ago. Years of leading teams I never get tired of repeating: a fast decision beats a perfect decision. Perfectionism is the most expensive habit in business. It costs you opportunies,  costs your team's growth, and if you're not careful,  costs your kids their happiness. The data backs it up. What I push for instead is continuous improvement and excellence, and the distinction matters more than most people realize.
         </p>
         <p>
           What brought this into focus for me was a piece <a href="https://adamgrant.net/" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline">Adam Grant</a> sent out on why the youth mental health crisis runs deeper than smartphones. It pointed me to his WorkLife episode on <a href="https://www.ted.com/podcasts/worklife/breaking-up-with-perfectionism-transcript" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline">breaking up with perfectionism</a> with <a href="https://www.lse.ac.uk/people/thomas-curran" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline">Thomas Curran</a>, the London School of Economics psychologist who is the leading expert on the subject. It stopped me in my tracks, not just as a leader of teams, but as a parent.
@@ -65,7 +65,7 @@ export const articles: Article[] = [
         <section id="section-2" className="mb-12 scroll-mt-32">
           <h2 className="mb-6">Most Doors Are Two-Way Doors</h2>
           <p>
-            Businesses spend so much time engineering the perfect call that by the time they make it, the ship has sailed. And here's the thing: rarely in business do you come across a one-way door. Jeff Bezos <a href="https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline">made this famous</a>. Most decisions are reversible, two-way doors, and they should be made quickly. So what's the harm in testing it? If it's the wrong door, retreat quickly. Learn why you took that door, improve the next decision, and walk through the next one smarter. That loop, decide fast, learn, decide better, is continuous improvement in action.
+            Businesses spend so much time engineering the perfect call that by the time they make it, the ship has sailed. And here's the thing: rarely in business do you come across a one-way door. Jeff Bezos <a href="https://www.aboutamazon.com/news/company-news/2016-letter-to-shareholders" target="_blank" rel="noopener noreferrer" className="text-[var(--color-accent)] hover:underline">made this famous</a>. Most decisions are reversible, two-way doors, and they should be made quickly. So what's the harm in testing it? If it's the wrong door, retreat quickly. Learn why you took that door, improve the next decision, and walk through the next one smarter. That loop, decide fast-learn-decide better, is continuous improvement in action.
           </p>
           <p>
             Perfectionists can't run this loop. Curran explains why:
